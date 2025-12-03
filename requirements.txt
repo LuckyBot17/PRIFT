@@ -1,0 +1,35 @@
+# Requirements for TIE (Textual Intervention for Equality) implementation
+# 排除 Causal-Learning-For-Robust-Classifier 目录
+
+# 核心深度学习框架
+torch>=1.9.0
+torchvision>=0.10.0
+
+# 自然语言处理
+transformers>=4.20.0
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.3.0
+
+# 机器学习工具
+scikit-learn>=1.0.0
+
+# 进度条
+tqdm>=4.62.0
+
+# 图像处理 (用于 TIE_waterbirds.py)
+Pillow>=8.3.0
+
+# 科学计算 (用于 TIE_waterbirds.py)
+scipy>=1.7.0
+
+# 可视化 (用于 TIE_waterbirds.py)
+matplotlib>=3.4.0
+
+# 下载工具 (用于 TIE_waterbirds.py)
+wget>=3.2
+
+# CLIP模型 (用于 TIE_waterbirds.py)
+open-clip-torch>=2.0.0
+
